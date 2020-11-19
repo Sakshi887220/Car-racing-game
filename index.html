@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+  <head>
+    <meta charset="utf-8">
+    <title>HORIZON CHASE TURBO</title>
+
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./assets/favicon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="./assets/favicon.png"
+  />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCrVyuCmOd8ty7qvy-iF9YkOWQ6HIBVVzM",
+        authDomain: "multi-bb939.firebaseapp.com",
+        databaseURL: "https://multi-bb939.firebaseio.com",
+        projectId: "multi-bb939",
+        storageBucket: "multi-bb939.appspot.com",
+        messagingSenderId: "472969161769",
+        appId: "1:472969161769:web:48d712bdeb033673f84038"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
