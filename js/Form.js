@@ -6,8 +6,8 @@ class Form {
     this.greeting = createElement('h2');
     //this.title = createElement('h2');
     this.reset = createButton('Reset');
-    this.logoImage =loadImage("images/favicon.png")
-    this.logo = createImg(this.logoImage);
+   // this.logoImage =loadImage("images/favicon.png")
+   // this.logo = createImg(this.logoImage);
 
 
   }
@@ -20,7 +20,7 @@ class Form {
 
   display(){
     
-    this.logo.position(width / 2, 30);
+    //this.logo.position(width / 2, 30);
     this.button.class("customButton")
     this.input.class("customInput")
     this.reset.class("customButton")
